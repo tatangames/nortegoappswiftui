@@ -1,0 +1,24 @@
+{
+  "originHash" : "739de5ec2e26e884df73e2a2e773bfac811dea298ea8beda574efb2c3d7f5c8b",
+  "pins" : [
+    {
+      "identity" : "onesignal-xcframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OneSignal/OneSignal-XCFramework",
+      "state" : {
+        "revision" : "a7df0fa1cb25ae2920b6ee01fe703fec50639256",
+        "version" : "5.2.10"
+      }
+    },
+    {
+      "identity" : "otpview-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mukeshsolanki/otpview-swiftui",
+      "state" : {
+        "revision" : "a4b5e210ffce6ff5b7889c212939df25a3c24dd4",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

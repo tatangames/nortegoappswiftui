@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D42542D62A446A1962F65C6 /* Pods_NorteGoApp_NorteGoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73791507B58993CF796C3A55 /* Pods_NorteGoApp_NorteGoAppUITests.framework */; };
+		0F5759360CEC827EA2B92F4A /* Pods_NorteGoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54929D502A611E21F9370275 /* Pods_NorteGoApp.framework */; };
+		175D553A54322F17682BE605 /* Pods_NorteGoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EF2B33AFFC786950446AE3 /* Pods_NorteGoAppTests.framework */; };
+		27CB8D42461D52558A77DE6E /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAAA441EB7CE71E001848A5 /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		71031C272D8C608A00CDA57C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71031C202D8C608A00CDA57C /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71031C2F2D8C60F700CDA57C /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 71031C2E2D8C60F700CDA57C /* OneSignalExtension */; };
+		71031C312D8C60F700CDA57C /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 71031C302D8C60F700CDA57C /* OneSignalFramework */; };
+		71031C332D8C60F700CDA57C /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 71031C322D8C60F700CDA57C /* OneSignalInAppMessages */; };
+		71031C352D8C60F700CDA57C /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 71031C342D8C60F700CDA57C /* OneSignalLocation */; };
+		71031CD02D8C63F900CDA57C /* OTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 71031CCF2D8C63F900CDA57C /* OTPView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71031BFE2D8C5D9700CDA57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71031BE42D8C5D9500CDA57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71031BEB2D8C5D9600CDA57C;
+			remoteInfo = NorteGoApp;
+		};
+		71031C082D8C5D9700CDA57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71031BE42D8C5D9500CDA57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71031BEB2D8C5D9600CDA57C;
+			remoteInfo = NorteGoApp;
+		};
+		71031C252D8C608A00CDA57C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71031BE42D8C5D9500CDA57C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71031C1F2D8C608A00CDA57C;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71031C2C2D8C608A00CDA57C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				71031C272D8C608A00CDA57C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08C975E6D6227DD5395A3482 /* Pods-NorteGoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorteGoApp.debug.xcconfig"; path = "Target Support Files/Pods-NorteGoApp/Pods-NorteGoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0DAAA441EB7CE71E001848A5 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		133B0A777FD546159DE5936B /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		54929D502A611E21F9370275 /* Pods_NorteGoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorteGoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EF2B33AFFC786950446AE3 /* Pods_NorteGoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorteGoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71031BEC2D8C5D9600CDA57C /* NorteGoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorteGoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71031BFD2D8C5D9700CDA57C /* NorteGoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorteGoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71031C072D8C5D9700CDA57C /* NorteGoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorteGoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71031C202D8C608A00CDA57C /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		73791507B58993CF796C3A55 /* Pods_NorteGoApp_NorteGoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorteGoApp_NorteGoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		913BA75C562FB8F15B6008CC /* Pods-NorteGoApp-NorteGoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorteGoApp-NorteGoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NorteGoApp-NorteGoAppUITests/Pods-NorteGoApp-NorteGoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93EBA7B2F9523F93DAF3FA70 /* Pods-NorteGoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorteGoApp.release.xcconfig"; path = "Target Support Files/Pods-NorteGoApp/Pods-NorteGoApp.release.xcconfig"; sourceTree = "<group>"; };
+		9B3607FB9AEF29FE013E58DA /* Pods-NorteGoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorteGoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NorteGoAppTests/Pods-NorteGoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A07173FD460D553E6C1DF1C9 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C55ABD47ADDC1A8699119729 /* Pods-NorteGoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorteGoAppTests.release.xcconfig"; path = "Target Support Files/Pods-NorteGoAppTests/Pods-NorteGoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C84E6492F47393B2505A24DC /* Pods-NorteGoApp-NorteGoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorteGoApp-NorteGoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NorteGoApp-NorteGoAppUITests/Pods-NorteGoApp-NorteGoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		71031C1B2D8C5FF400CDA57C /* Exceptions for "NorteGoApp" folder in "NorteGoApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71031BEB2D8C5D9600CDA57C /* NorteGoApp */;
+		};
+		71031C2B2D8C608A00CDA57C /* Exceptions for "OneSignalNotificationServiceExtension" folder in "OneSignalNotificationServiceExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71031C1F2D8C608A00CDA57C /* OneSignalNotificationServiceExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		71031BEE2D8C5D9600CDA57C /* NorteGoApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71031C1B2D8C5FF400CDA57C /* Exceptions for "NorteGoApp" folder in "NorteGoApp" target */,
+			);
+			path = NorteGoApp;
+			sourceTree = "<group>";
+		};
+		71031C002D8C5D9700CDA57C /* NorteGoAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NorteGoAppTests;
+			sourceTree = "<group>";
+		};
+		71031C0A2D8C5D9700CDA57C /* NorteGoAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NorteGoAppUITests;
+			sourceTree = "<group>";
+		};
+		71031C212D8C608A00CDA57C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71031C2B2D8C608A00CDA57C /* Exceptions for "OneSignalNotificationServiceExtension" folder in "OneSignalNotificationServiceExtension" target */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71031BE92D8C5D9600CDA57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71031C332D8C60F700CDA57C /* OneSignalInAppMessages in Frameworks */,
+				71031C312D8C60F700CDA57C /* OneSignalFramework in Frameworks */,
+				71031C352D8C60F700CDA57C /* OneSignalLocation in Frameworks */,
+				71031CD02D8C63F900CDA57C /* OTPView in Frameworks */,
+				71031C2F2D8C60F700CDA57C /* OneSignalExtension in Frameworks */,
+				0F5759360CEC827EA2B92F4A /* Pods_NorteGoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031BFA2D8C5D9700CDA57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175D553A54322F17682BE605 /* Pods_NorteGoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031C042D8C5D9700CDA57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D42542D62A446A1962F65C6 /* Pods_NorteGoApp_NorteGoAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031C1D2D8C608A00CDA57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CB8D42461D52558A77DE6E /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A8CCFB3FA0839FE935F39D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54929D502A611E21F9370275 /* Pods_NorteGoApp.framework */,
+				73791507B58993CF796C3A55 /* Pods_NorteGoApp_NorteGoAppUITests.framework */,
+				70EF2B33AFFC786950446AE3 /* Pods_NorteGoAppTests.framework */,
+				0DAAA441EB7CE71E001848A5 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20E651708AC1BEC512AAF5A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C975E6D6227DD5395A3482 /* Pods-NorteGoApp.debug.xcconfig */,
+				93EBA7B2F9523F93DAF3FA70 /* Pods-NorteGoApp.release.xcconfig */,
+				C84E6492F47393B2505A24DC /* Pods-NorteGoApp-NorteGoAppUITests.debug.xcconfig */,
+				913BA75C562FB8F15B6008CC /* Pods-NorteGoApp-NorteGoAppUITests.release.xcconfig */,
+				9B3607FB9AEF29FE013E58DA /* Pods-NorteGoAppTests.debug.xcconfig */,
+				C55ABD47ADDC1A8699119729 /* Pods-NorteGoAppTests.release.xcconfig */,
+				A07173FD460D553E6C1DF1C9 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				133B0A777FD546159DE5936B /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71031BE32D8C5D9500CDA57C = {
+			isa = PBXGroup;
+			children = (
+				71031BEE2D8C5D9600CDA57C /* NorteGoApp */,
+				71031C002D8C5D9700CDA57C /* NorteGoAppTests */,
+				71031C0A2D8C5D9700CDA57C /* NorteGoAppUITests */,
+				71031C212D8C608A00CDA57C /* OneSignalNotificationServiceExtension */,
+				71031BED2D8C5D9600CDA57C /* Products */,
+				20E651708AC1BEC512AAF5A6 /* Pods */,
+				14A8CCFB3FA0839FE935F39D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71031BED2D8C5D9600CDA57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71031BEC2D8C5D9600CDA57C /* NorteGoApp.app */,
+				71031BFD2D8C5D9700CDA57C /* NorteGoAppTests.xctest */,
+				71031C072D8C5D9700CDA57C /* NorteGoAppUITests.xctest */,
+				71031C202D8C608A00CDA57C /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71031BEB2D8C5D9600CDA57C /* NorteGoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71031C112D8C5D9700CDA57C /* Build configuration list for PBXNativeTarget "NorteGoApp" */;
+			buildPhases = (
+				76C7E0584D1A7FB596C73830 /* [CP] Check Pods Manifest.lock */,
+				71031BE82D8C5D9600CDA57C /* Sources */,
+				71031BE92D8C5D9600CDA57C /* Frameworks */,
+				71031BEA2D8C5D9600CDA57C /* Resources */,
+				71031C2C2D8C608A00CDA57C /* Embed Foundation Extensions */,
+				348AA88AFABF34956F589CC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71031C262D8C608A00CDA57C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				71031BEE2D8C5D9600CDA57C /* NorteGoApp */,
+			);
+			name = NorteGoApp;
+			packageProductDependencies = (
+				71031C2E2D8C60F700CDA57C /* OneSignalExtension */,
+				71031C302D8C60F700CDA57C /* OneSignalFramework */,
+				71031C322D8C60F700CDA57C /* OneSignalInAppMessages */,
+				71031C342D8C60F700CDA57C /* OneSignalLocation */,
+				71031CCF2D8C63F900CDA57C /* OTPView */,
+			);
+			productName = NorteGoApp;
+			productReference = 71031BEC2D8C5D9600CDA57C /* NorteGoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71031BFC2D8C5D9700CDA57C /* NorteGoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71031C142D8C5D9700CDA57C /* Build configuration list for PBXNativeTarget "NorteGoAppTests" */;
+			buildPhases = (
+				87BF90CC795B0FF48DBAF5E3 /* [CP] Check Pods Manifest.lock */,
+				71031BF92D8C5D9700CDA57C /* Sources */,
+				71031BFA2D8C5D9700CDA57C /* Frameworks */,
+				71031BFB2D8C5D9700CDA57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71031BFF2D8C5D9700CDA57C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				71031C002D8C5D9700CDA57C /* NorteGoAppTests */,
+			);
+			name = NorteGoAppTests;
+			productName = NorteGoAppTests;
+			productReference = 71031BFD2D8C5D9700CDA57C /* NorteGoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71031C062D8C5D9700CDA57C /* NorteGoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71031C172D8C5D9700CDA57C /* Build configuration list for PBXNativeTarget "NorteGoAppUITests" */;
+			buildPhases = (
+				02FC1BB6AAC5A4359597E229 /* [CP] Check Pods Manifest.lock */,
+				71031C032D8C5D9700CDA57C /* Sources */,
+				71031C042D8C5D9700CDA57C /* Frameworks */,
+				71031C052D8C5D9700CDA57C /* Resources */,
+				8A3541420F2588D770C7D0BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71031C092D8C5D9700CDA57C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				71031C0A2D8C5D9700CDA57C /* NorteGoAppUITests */,
+			);
+			name = NorteGoAppUITests;
+			productName = NorteGoAppUITests;
+			productReference = 71031C072D8C5D9700CDA57C /* NorteGoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		71031C1F2D8C608A00CDA57C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71031C282D8C608A00CDA57C /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				182AA9CE82C71478F502DC24 /* [CP] Check Pods Manifest.lock */,
+				71031C1C2D8C608A00CDA57C /* Sources */,
+				71031C1D2D8C608A00CDA57C /* Frameworks */,
+				71031C1E2D8C608A00CDA57C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71031C212D8C608A00CDA57C /* OneSignalNotificationServiceExtension */,
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 71031C202D8C608A00CDA57C /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71031BE42D8C5D9500CDA57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					71031BEB2D8C5D9600CDA57C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71031BFC2D8C5D9700CDA57C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 71031BEB2D8C5D9600CDA57C;
+					};
+					71031C062D8C5D9700CDA57C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 71031BEB2D8C5D9600CDA57C;
+					};
+					71031C1F2D8C608A00CDA57C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 71031BE72D8C5D9500CDA57C /* Build configuration list for PBXProject "NorteGoApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71031BE32D8C5D9500CDA57C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				71031CCE2D8C63F900CDA57C /* XCRemoteSwiftPackageReference "otpview-swiftui" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 71031BED2D8C5D9600CDA57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71031BEB2D8C5D9600CDA57C /* NorteGoApp */,
+				71031BFC2D8C5D9700CDA57C /* NorteGoAppTests */,
+				71031C062D8C5D9700CDA57C /* NorteGoAppUITests */,
+				71031C1F2D8C608A00CDA57C /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71031BEA2D8C5D9600CDA57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031BFB2D8C5D9700CDA57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031C052D8C5D9700CDA57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031C1E2D8C608A00CDA57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02FC1BB6AAC5A4359597E229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorteGoApp-NorteGoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		182AA9CE82C71478F502DC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348AA88AFABF34956F589CC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NorteGoApp/Pods-NorteGoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NorteGoApp/Pods-NorteGoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NorteGoApp/Pods-NorteGoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C7E0584D1A7FB596C73830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorteGoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87BF90CC795B0FF48DBAF5E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorteGoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3541420F2588D770C7D0BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NorteGoApp-NorteGoAppUITests/Pods-NorteGoApp-NorteGoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NorteGoApp-NorteGoAppUITests/Pods-NorteGoApp-NorteGoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NorteGoApp-NorteGoAppUITests/Pods-NorteGoApp-NorteGoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71031BE82D8C5D9600CDA57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031BF92D8C5D9700CDA57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031C032D8C5D9700CDA57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71031C1C2D8C608A00CDA57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71031BFF2D8C5D9700CDA57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71031BEB2D8C5D9600CDA57C /* NorteGoApp */;
+			targetProxy = 71031BFE2D8C5D9700CDA57C /* PBXContainerItemProxy */;
+		};
+		71031C092D8C5D9700CDA57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71031BEB2D8C5D9600CDA57C /* NorteGoApp */;
+			targetProxy = 71031C082D8C5D9700CDA57C /* PBXContainerItemProxy */;
+		};
+		71031C262D8C608A00CDA57C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71031C1F2D8C608A00CDA57C /* OneSignalNotificationServiceExtension */;
+			targetProxy = 71031C252D8C608A00CDA57C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71031C0F2D8C5D9700CDA57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71031C102D8C5D9700CDA57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		71031C122D8C5D9700CDA57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C975E6D6227DD5395A3482 /* Pods-NorteGoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NorteGoApp/NorteGoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"NorteGoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NorteGoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NorteGo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Se utiliza tu ubicación para adjuntarla a la solicitud y atenderla con precisión";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se utiliza tu ubicación para adjuntarla a la solicitud y atenderla con precisión";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Se requiere acceso a tu galería para adjuntar imágenes como evidencia en tu denuncia";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		71031C132D8C5D9700CDA57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EBA7B2F9523F93DAF3FA70 /* Pods-NorteGoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NorteGoApp/NorteGoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"NorteGoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NorteGoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NorteGo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Se utiliza tu ubicación para adjuntarla a la solicitud y atenderla con precisión";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Se utiliza tu ubicación para adjuntarla a la solicitud y atenderla con precisión";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Se requiere acceso a tu galería para adjuntar imágenes como evidencia en tu denuncia";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		71031C152D8C5D9700CDA57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3607FB9AEF29FE013E58DA /* Pods-NorteGoAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NorteGoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NorteGoApp";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		71031C162D8C5D9700CDA57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55ABD47ADDC1A8699119729 /* Pods-NorteGoAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NorteGoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NorteGoApp";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		71031C182D8C5D9700CDA57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84E6492F47393B2505A24DC /* Pods-NorteGoApp-NorteGoAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = NorteGoApp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		71031C192D8C5D9700CDA57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913BA75C562FB8F15B6008CC /* Pods-NorteGoApp-NorteGoAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = NorteGoApp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		71031C292D8C608A00CDA57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07173FD460D553E6C1DF1C9 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGo.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71031C2A2D8C608A00CDA57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133B0A777FD546159DE5936B /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q42L849MJ4;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGo.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71031BE72D8C5D9500CDA57C /* Build configuration list for PBXProject "NorteGoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71031C0F2D8C5D9700CDA57C /* Debug */,
+				71031C102D8C5D9700CDA57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71031C112D8C5D9700CDA57C /* Build configuration list for PBXNativeTarget "NorteGoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71031C122D8C5D9700CDA57C /* Debug */,
+				71031C132D8C5D9700CDA57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71031C142D8C5D9700CDA57C /* Build configuration list for PBXNativeTarget "NorteGoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71031C152D8C5D9700CDA57C /* Debug */,
+				71031C162D8C5D9700CDA57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71031C172D8C5D9700CDA57C /* Build configuration list for PBXNativeTarget "NorteGoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71031C182D8C5D9700CDA57C /* Debug */,
+				71031C192D8C5D9700CDA57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71031C282D8C608A00CDA57C /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71031C292D8C608A00CDA57C /* Debug */,
+				71031C2A2D8C608A00CDA57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.10;
+			};
+		};
+		71031CCE2D8C63F900CDA57C /* XCRemoteSwiftPackageReference "otpview-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mukeshsolanki/otpview-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71031C2E2D8C60F700CDA57C /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		71031C302D8C60F700CDA57C /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		71031C322D8C60F700CDA57C /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		71031C342D8C60F700CDA57C /* OneSignalLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalLocation;
+		};
+		71031CCF2D8C63F900CDA57C /* OTPView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71031CCE2D8C63F900CDA57C /* XCRemoteSwiftPackageReference "otpview-swiftui" */;
+			productName = OTPView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 71031BE42D8C5D9500CDA57C /* Project object */;
+}
