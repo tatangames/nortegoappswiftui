@@ -24,9 +24,18 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         self.locationManager.startUpdatingLocation()
     }
 
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let lastLocation = locations.last else { return }
         self.location = lastLocation.coordinate
-        self.locationManager.stopUpdatingLocation() // Detener actualizaciones después de obtener la ubicación
+        // No detengas las actualizaciones si quieres el punto azul activo
+        // self.locationManager.stopUpdatingLocation()
+    }
+}
+
+
+extension CLLocationCoordinate2D: @retroactive Equatable {
+    public static func == (lhs: CLLocationCoordinate2D, rhs: CLLocationCoordinate2D) -> Bool {
+        lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
     }
 }

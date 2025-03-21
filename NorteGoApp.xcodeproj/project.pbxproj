@@ -17,6 +17,12 @@
 		71031C332D8C60F700CDA57C /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 71031C322D8C60F700CDA57C /* OneSignalInAppMessages */; };
 		71031C352D8C60F700CDA57C /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 71031C342D8C60F700CDA57C /* OneSignalLocation */; };
 		71031CD02D8C63F900CDA57C /* OTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 71031CCF2D8C63F900CDA57C /* OTPView */; };
+		710323762D8CC39500CDA57C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 710323752D8CC39500CDA57C /* FirebaseAuth */; };
+		710323782D8CC39500CDA57C /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 710323772D8CC39500CDA57C /* FirebaseAuthCombine-Community */; };
+		7103237A2D8CC39500CDA57C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 710323792D8CC39500CDA57C /* FirebaseCore */; };
+		7103237C2D8CC39500CDA57C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7103237B2D8CC39500CDA57C /* FirebaseFirestore */; };
+		7103237E2D8CC39500CDA57C /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7103237D2D8CC39500CDA57C /* FirebaseFirestoreCombine-Community */; };
+		710323802D8CC39500CDA57C /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 7103237F2D8CC39500CDA57C /* FirebaseFunctions */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,9 +136,15 @@
 				71031C332D8C60F700CDA57C /* OneSignalInAppMessages in Frameworks */,
 				71031C312D8C60F700CDA57C /* OneSignalFramework in Frameworks */,
 				71031C352D8C60F700CDA57C /* OneSignalLocation in Frameworks */,
+				710323802D8CC39500CDA57C /* FirebaseFunctions in Frameworks */,
+				7103237C2D8CC39500CDA57C /* FirebaseFirestore in Frameworks */,
 				71031CD02D8C63F900CDA57C /* OTPView in Frameworks */,
+				7103237E2D8CC39500CDA57C /* FirebaseFirestoreCombine-Community in Frameworks */,
 				71031C2F2D8C60F700CDA57C /* OneSignalExtension in Frameworks */,
+				710323762D8CC39500CDA57C /* FirebaseAuth in Frameworks */,
 				0F5759360CEC827EA2B92F4A /* Pods_NorteGoApp.framework in Frameworks */,
+				7103237A2D8CC39500CDA57C /* FirebaseCore in Frameworks */,
+				710323782D8CC39500CDA57C /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,12 @@
 				71031C322D8C60F700CDA57C /* OneSignalInAppMessages */,
 				71031C342D8C60F700CDA57C /* OneSignalLocation */,
 				71031CCF2D8C63F900CDA57C /* OTPView */,
+				710323752D8CC39500CDA57C /* FirebaseAuth */,
+				710323772D8CC39500CDA57C /* FirebaseAuthCombine-Community */,
+				710323792D8CC39500CDA57C /* FirebaseCore */,
+				7103237B2D8CC39500CDA57C /* FirebaseFirestore */,
+				7103237D2D8CC39500CDA57C /* FirebaseFirestoreCombine-Community */,
+				7103237F2D8CC39500CDA57C /* FirebaseFunctions */,
 			);
 			productName = NorteGoApp;
 			productReference = 71031BEC2D8C5D9600CDA57C /* NorteGoApp.app */;
@@ -351,6 +369,7 @@
 			packageReferences = (
 				71031C2D2D8C60F700CDA57C /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
 				71031CCE2D8C63F900CDA57C /* XCRemoteSwiftPackageReference "otpview-swiftui" */,
+				710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 71031BED2D8C5D9600CDA57C /* Products */;
@@ -693,7 +712,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NorteGoApp/NorteGoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"NorteGoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Q42L849MJ4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -719,7 +738,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -740,7 +759,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NorteGoApp/NorteGoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"NorteGoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Q42L849MJ4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -766,7 +785,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.santaananortemetapan.NorteGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -999,6 +1018,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1026,6 +1053,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 71031CCE2D8C63F900CDA57C /* XCRemoteSwiftPackageReference "otpview-swiftui" */;
 			productName = OTPView;
+		};
+		710323752D8CC39500CDA57C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		710323772D8CC39500CDA57C /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		710323792D8CC39500CDA57C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		7103237B2D8CC39500CDA57C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7103237D2D8CC39500CDA57C /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		7103237F2D8CC39500CDA57C /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 710323742D8CC39500CDA57C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

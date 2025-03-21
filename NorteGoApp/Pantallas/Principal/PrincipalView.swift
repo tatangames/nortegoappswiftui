@@ -13,6 +13,7 @@ import RxSwift
 import AlertToast
 import SDWebImageSwiftUI
 import OneSignalFramework
+import FirebaseAuth
 
 struct PrincipalView: View {
     
@@ -330,7 +331,7 @@ struct ContenidoServicios:View {
     func redireccionamiento(_tiposervicio: Int, _id: Int, _titulo: String, _descripcion: String){
         
         // ID SERVICIOS DISPONIBLES, SINO MOSTRAR QUE ESTE SERVICIO NUEVO NECESITA ACTUALIZACION
-        let supportedTypes: [Int] = [1,2,3,4]
+        let supportedTypes: [Int] = [1,2,3,4,5]
         
         if supportedTypes.contains(_tiposervicio) {
             if _tiposervicio == 1 {
@@ -349,6 +350,19 @@ struct ContenidoServicios:View {
             else if _tiposervicio == 4 {
                 // CATASTRO
                 vistaSeleccionada = AnyView(SolvenciaCatastroView(tituloVista: _titulo))
+            }
+            else if _tiposervicio == 5 {
+                // RECOLECTORES EN TIEMPO REAL
+                loginAnonimo { success in
+                    if success {
+                        DispatchQueue.main.async {
+                            vistaSeleccionada = AnyView(MapaRecolectorView(tituloVista: _titulo))
+                        }
+                    } else {
+                        // Manejar el error, por ejemplo mostrar una alerta
+                        print("No se pudo iniciar sesión como invitado")
+                    }
+                }
             }
         }else{
             // nuevo servicio, se necesita actualizacion
@@ -432,5 +446,23 @@ struct ContenedorShimmer: View {
             .padding(.horizontal)
         }
         .padding(.top,40)
+    }
+}
+
+
+func loginAnonimo(completion: @escaping (Bool) -> Void) {
+    if Auth.auth().currentUser != nil {
+        // Ya hay un usuario logueado
+        completion(true)
+    } else {
+        Auth.auth().signInAnonymously { authResult, error in
+            if let error = error {
+                print("Error al iniciar sesión como invitado: \(error.localizedDescription)")
+                completion(false)
+            } else {
+                print("Inicio de sesión como invitado exitoso. UID: \(authResult?.user.uid ?? "")")
+                completion(true)
+            }
+        }
     }
 }

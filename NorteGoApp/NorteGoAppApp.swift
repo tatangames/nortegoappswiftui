@@ -7,11 +7,16 @@
 
 import SwiftUI
 import OneSignalFramework
+import Firebase
 
 @main
 struct NorteGoApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
+    init() {
+           FirebaseApp.configure()
+       }
+       
     var body: some Scene {
         WindowGroup {
             SplashScreenView()

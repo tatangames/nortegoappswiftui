@@ -7,8 +7,9 @@
 
 import Foundation
 
-// ULTIMA ACTUALIZACION: 19/03/2025
-let apiVersionApp = "v. 1.0.2"
+// ULTIMA ACTUALIZACION: 21/03/2025
+// se utiliza en sidebar pie de pagina
+let apiVersionApp = "v. 1.0.3"
 
 // utilizado cuando hay un nuevo servicio
 let apiURLAppleStore = "https://apps.apple.com/app/nortego/6737849890"
